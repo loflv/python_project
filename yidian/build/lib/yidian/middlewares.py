@@ -175,8 +175,7 @@ class ProxyMiddleware(object):
 
 
     def process_request(self, request, spider):
-        #request.meta['proxy'] = "http://150.109.55.190:83"
-        request.meta['proxy'] = "http://120.83.105.173:9999"
+        request.meta['proxy'] = "http://150.109.55.190:83"
 
 
 class AgentMiddleware(object):

@@ -1,0 +1,17 @@
+setup.py
+project.egg-info/PKG-INFO
+project.egg-info/SOURCES.txt
+project.egg-info/dependency_links.txt
+project.egg-info/entry_points.txt
+project.egg-info/top_level.txt
+qqmusic/__init__.py
+qqmusic/excute.py
+qqmusic/items.py
+qqmusic/middlewares.py
+qqmusic/pipelines.py
+qqmusic/save_to_db.py
+qqmusic/settings.py
+qqmusic/spiders/__init__.py
+qqmusic/spiders/qq_com.py
+qqmusic/spiders/qqmusic_list.py
+qqmusic/spiders/qqmusic_singer.py
