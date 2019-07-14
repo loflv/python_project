@@ -61,7 +61,7 @@ class YidianSpider(CrawlSpider):
         heanders = {
             'Referer': 'http://www.yidianzixun.com/channel/u241'
         }
-        yield scrapy.Request(url, headers=heanders, meta={'start': 10})
+        yield scrapy.Request(url, headers=heanders, u={'start': 10})
 
     def parse(self, response):
         start = response.meta['start']

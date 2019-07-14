@@ -2,23 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7614705b-5691-4623-8a79-87ed85e4dde7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../yidian/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qqmusic/excute.py" beforeDir="false" afterPath="$PROJECT_DIR$/qqmusic/excute.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qqmusic/spiders/qq_com.py" beforeDir="false" afterPath="$PROJECT_DIR$/qqmusic/spiders/qq_com.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qqmusic/spiders/qqmusic_list.py" beforeDir="false" afterPath="$PROJECT_DIR$/qqmusic/spiders/qqmusic_list.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/qqmusic/spiders/qqmusic_singer.py" beforeDir="false" afterPath="$PROJECT_DIR$/qqmusic/spiders/qqmusic_singer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scrapy.cfg" beforeDir="false" afterPath="$PROJECT_DIR$/scrapy.cfg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yidian/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yidian/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yidian/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yidian/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../yidian/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../yidian/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yidian/.idea/yidian.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../yidian/.idea/yidian.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yidian/scrapyd-deploy" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yidian/yidian/excute.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yidian/yidian/excute.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yidian/yidian/middlewares.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yidian/yidian/middlewares.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yidian/yidian/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yidian/yidian/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../yidian/yidian/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yidian/yidian/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../yidian/yidian/spiders/yidian.py" beforeDir="false" afterPath="$PROJECT_DIR$/../yidian/yidian/spiders/yidian.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -31,7 +17,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qqmusic/excute.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
+            <state relative-caret-position="36">
               <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
               <folding>
                 <element signature="e#0#11#0" expanded="true" />
@@ -43,8 +29,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/qqmusic/spiders/qq_com.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+            <state relative-caret-position="516">
+              <caret line="46" column="67" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="67" />
               <folding>
                 <element signature="e#24#37#0" expanded="true" />
               </folding>
@@ -55,7 +41,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://C:/Program Files/Python37/Lib/json/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="132">
+            <state relative-caret-position="4878">
               <caret line="273" column="4" selection-start-line="273" selection-start-column="4" selection-end-line="273" selection-end-column="4" />
             </state>
           </provider>
@@ -76,8 +62,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/qqmusic/spiders/qqmusic_list.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+            <state relative-caret-position="-276">
+              <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="5" />
             </state>
           </provider>
         </entry>
@@ -127,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="-10" />
     <option name="y" value="-10" />
     <option name="width" value="1750" />
@@ -172,7 +158,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yidian" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -268,8 +254,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25231177" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25231177" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -450,16 +437,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://C:/Program Files/Python37/Lib/json/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="132">
-          <caret line="273" column="4" selection-start-line="273" selection-start-column="4" selection-end-line="273" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/qqmusic/excute.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
+        <state relative-caret-position="36">
           <caret line="5" column="36" selection-start-line="5" selection-start-column="36" selection-end-line="5" selection-end-column="36" />
           <folding>
             <element signature="e#0#11#0" expanded="true" />
@@ -467,10 +447,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/qqmusic/spiders/qqmusic_list.py">
+    <entry file="file://C:/Program Files/Python37/Lib/json/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="6" column="5" selection-start-line="6" selection-start-column="5" selection-end-line="6" selection-end-column="5" />
+        <state relative-caret-position="4878">
+          <caret line="273" column="4" selection-start-line="273" selection-start-column="4" selection-end-line="273" selection-end-column="4" />
         </state>
       </provider>
     </entry>
@@ -484,10 +464,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/qqmusic/spiders/qqmusic_list.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-276">
+          <caret line="6" column="5" lean-forward="true" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/qqmusic/spiders/qq_com.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="20" column="13" lean-forward="true" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        <state relative-caret-position="516">
+          <caret line="46" column="67" selection-start-line="46" selection-start-column="56" selection-end-line="46" selection-end-column="67" />
           <folding>
             <element signature="e#24#37#0" expanded="true" />
           </folding>
