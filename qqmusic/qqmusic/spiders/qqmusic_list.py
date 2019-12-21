@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import json
-from fake_useragent import UserAgent
 from urllib.parse import urlencode
 
 #流行热歌
@@ -16,7 +15,6 @@ class QqmusicSingerSpider(scrapy.Spider):
         url = 'https://u.y.qq.com/cgi-bin/musicu.fcg?data=%7b%22detail%22%3a%7b%22module%22%3a%22musicToplist.ToplistInfoServer%22%2c%22method%22%3a%22GetDetail%22%2c%22param%22%3a%7b%22topId%22%3a4%2c%22offset%22%3a0%2c%22num%22%3a30%7d%7d%7d'
         headers = {
             'referer': 'https://y.qq.com/',
-            'User-agent': UserAgent().random
         }
         yield scrapy.Request(url, headers=headers, callback=self.parse)
 
@@ -38,7 +36,6 @@ class QqmusicSingerSpider(scrapy.Spider):
 
         headers = {
             'referer': 'https://y.qq.com/',
-            'User-agent': UserAgent().random
         }
         for song in songlist:
             songid = song['mid']

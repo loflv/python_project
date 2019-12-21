@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import json
-from fake_useragent import UserAgent
 from urllib.parse import urlencode
 
 
@@ -11,13 +10,11 @@ class QqComSpider(scrapy.Spider):
     start_urls = ['https://y.qq.com/n/yqq/playsquare/2339470106.html#stat=y_new.index.playlist.pic']
 
     def start_requests(self):
-        #修改项目
         with open("C:/Users/Administrator/Desktop/python_exe/qq音乐.json", 'r') as f:
             ubun_id = json.load(f)['qqmusic']
             url = 'https://c.y.qq.com/qzone/fcg-bin/fcg_ucc_getcdinfo_byids_cp.fcg?type=1&disstid=%s&format=json' % ubun_id
             headers = {
             'referer': 'https://y.qq.com/n/yqq/playsquare/%d.html' % ubun_id,
-            'User-agent': UserAgent().random
             }
             yield scrapy.Request(url, headers=headers, callback=self.parse)
 

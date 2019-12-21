@@ -13,6 +13,6 @@ class QqmusicPipeline(object):
         name = item['name']
 
         result = save_to_db({'song_name':item['name']})
-        if result:
-            with open("f://qq音乐/" + name+".mp3", 'wb+') as f:
-                f.write(content)
+        #if result:
+        with open("e://qq音乐/" + name+".mp3", 'wb+') as f:
+            f.write(content)

@@ -1,7 +1,6 @@
 # -*- coding: utf-8 -*-
 import scrapy
 import json
-from fake_useragent import UserAgent
 from urllib.parse import urlencode
 
 
@@ -18,7 +17,6 @@ class QqmusicSingerSpider(scrapy.Spider):
             url = 'https://c.y.qq.com/v8/fcg-bin/fcg_v8_singer_track_cp.fcg?g_tk=5381&loginUin=0&hostUin=0&format=json&inCharset=utf8&outCharset=utf-8&notice=0&platform=yqq&needNewCode=0&ct=24&singermid=%s&order=listen&begin=0&num=10' % songid
             headers = {
                 'referer': 'https://y.qq.com/n/yqq/singer/%s.html' % songid,
-                'User-agent': UserAgent().random
             }
             yield scrapy.Request(url, headers=headers, callback=self.parse)
 
